@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="MyStyle.css">
+    <title>Autosuggest widgets</title>
+</head>
+<body >
+    <div class="wordart superhero"><span class="text">Zevo 360</span></div>
+    <div class="box" ><p>Click on the dropdown & search the country & select multiple values</p>
+<label for="countries"><h1 class="heading">Choose a country:</h1></label>
+
+<select name="countries" id="countries" multiple>
+  <option value="1">Australia (AU)</option>
+  <option value="2">Bermuda (BM)</option>
+  <option value="3">Canada (CA)</option>
+  <option value="4">Cameroon (CM)</option>
+  <option value="5">Denmark (DK)</option>
+  <option value="6">France (FR)</option>
+  <option value="7">Finland (FI)</option>
+  <option value="8">Germany (DE)</option>
+  <option value="9">Greenland (GL)</option>
+  <option value="10">Hong Kong (HK)</option>
+  <option value="11">India (IN)</option>
+  <option value="12">Italy (IT)</option>
+  <option value="13">Japan (JP)</option>
+  <option value="14">Mexico (MX)</option>
+  <option value="15">Norway (NO)</option>
+  <option value="16">Poland (PL)</option>
+  <option value="17">Switzerland (CH)</option>
+  <option value="18">United Kingdom (GB)</option>
+  <option value="19">United States (US)</option>
+
+</select>
+</div>
+<script src="MyScript.js"></script>
+<script>
+      
+    new MultiSelectTag('countries', {
+    rounded: true,    // default true
+    shadow: true      // default false
+})
+</script>
+</body>
+</html>
